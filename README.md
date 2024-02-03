@@ -24,4 +24,10 @@
 > Commit: Record of changes(Final). 
 > Commit with Message: git commit -m "Meaning Fll Message"
 
+# Push Command
+> Push: Upload local repo content to remote repo
+> Push File: git push origin main
+
+
+
 
