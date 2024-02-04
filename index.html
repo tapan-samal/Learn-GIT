@@ -1,0 +1,90 @@
+<h1>Learn Git Command</h1>
+
+<h3> What is Git...?</h3>
+<h4>
+    > Git is a version control system, it helps us to track the changes made in our code/projects. <br>
+    > It is the most popular version control system in software development field. <br>
+    > It is free and open source software. <br>
+    > It is fast and scalable, can be used in large project. <br>
+    > It is use to track the history of code and help to collaborate.
+</h4>
+<h3> What is GitHub...?</h3>
+<h4>
+    > Github is a website used by developers to store and manage their codes/projects with the help of Git. <br>
+    > On GitHub, projects are stored in folder structure that is known as "repository" in sort called "repo".
+</h4>
+<h3> Clone Commands :</h3>
+<h4>
+  > Clone: Cloning a repository on our loacal machine. <br />
+  > CD(Cange Directory): cd fileName+tab <br />
+  > Out from Directory: cd .. <br />
+  > Check Version: git -v or git --version <br />
+  > Clear Terminal: clear <br />
+  > ls(lists File): ls <br />
+  > Hidden Files: ls -a <br />
+  > Clone Link: git clone <-link->
+</h4>
+<h3> Status Commands :</h3>
+<h4>
+  > Status: Displays the state of the code. <br>
+  > Process: M/U => add => Staged => Commit => Unmodified <br>
+  > Check status: git status <br>
+  > M: Modified <br>
+  > U: Untracked File(New File) <br>
+  > S: Staged(File ready to be committed) <br>
+  > : Unmodified
+</h4>
+<h3> Add and Commit :</h3>
+<h4>
+    > Add: Add new or changed file in working directory to the Git staging area. <br>
+    > Add File: git add fileName / git add. <br>
+    > Commit: Record of changes(Final). <br>
+    > Commit with Message: git commit -m "Meaning Fll Message" <br>
+    > Check history of Commits: git log
+</h4>
+<h3> Push Command :</h3>
+<h4>
+    > Push: Upload local repo content to remote repo <br>
+    > Push File: git push origin main <br>
+    > Shorten Push: git push -u origin main => git push <br>
+</h4>
+<h3> Init Command :</h3>
+<h4>
+    > Init: Used to create a new git repo <br>
+    > Make new directory: mkdir newFolder <br>
+    > New Git: git init <br>
+    > Git Remote add to origin: git remote add origin <-link-> <br>
+    > Verify Remote: git remote -v
+</h4>
+<h3> Branch Command :</h3>
+<h4>
+    > Multi developers works on single project. <br>
+    > Main branch is the default branch. <br>
+    > Check Branch: git branch <br>
+    > Rename Branch: git branch -M main <br>
+    > To navigate other branch: git checkout <-branch name-> <br>
+    > Create new branch: git checkout -b <-new branch name-> <br>
+    > Delete branch: git branch -d <-branch name->
+</h4>
+<h3> Merging Code :</h3>
+<h4>
+    > Compare branches/files: git diff <-branch name-> <br>
+    > Merge 2 branches: git merge <-branch name-> <br>
+    > By Pull Request(PR), we can also merge in GitHub. <br>
+    > Merge Conflicts: An event that takes place when Git is unable to automatically resolve the differences in code between two commits.
+</h4>
+<h3> Pull Command :</h3>
+<h4>
+    > Pull: Used to fetch and download content from a remote repo and immediately update the local repo to match that content. <br>
+    > Pull File: git pull origin main
+</h4>
+<h3> Undoing Changes :</h3>
+<h4>
+    > Case 1: Staged Changes(single) : git reset <-file name-> <br>
+    > Case 2: Staged Changes(many) : git reset <br>
+    > Case 3: Commited Changes(single) : git reset HEAD~1 <br>
+    > Case 4: Commited Changes(many) : git reset <-commit hash->
+    > Case 4: Commited Changes(come to original status) : git reset --hard <-commit hash->
+</h4>
+
+<h4> Conclusion > Flow: GitHub repo => clone => changes => add => commit => push </h4>
